@@ -14,10 +14,8 @@ class Cercle:
     def __init__(self,centre,rayon):
         self.centre = centre
         self.rayon = rayon
-    # @staticmethod
     def getPerimetre(self):
         return 2*pi*self.rayon
-    # @staticmethod
     def getSurface(self):
         return pi*pow(self.rayon,2)
     def appartient(self, p:Point):
